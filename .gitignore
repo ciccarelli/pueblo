@@ -1,0 +1,38 @@
+# Created by http://www.gitignore.io
+
+*.sublime-workspace
+
+### OSX ###
+.DS_Store
+.AppleDouble
+.LSOverride
+
+node_modules
+node_modules/*
+
+layout
+layout/*
+
+
+script.sh
+
+# Icon must ends with two \r.
+Icon
+
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+
+### SASS ###
+### Sass Ignores - "Sassy CSS" http://sass-lang.com/
+*.sass-cache
+
+
+public/assets/loader.js.map
+public/assets/app.js.map
+public/assets/analytics.js.map
